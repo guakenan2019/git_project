@@ -1,11 +1,11 @@
 package com.student.model;
 
 public class studentModel {
-	private int id;
-	private String username;
-	private String password;
-	private int sex;
-	private int age;
+	private int id;//学号
+	private String username;//姓名
+	private String password;//密码
+	private int sex;//性别
+	private int age;//年龄
 	public int getId() {
 		return id;
 	}
